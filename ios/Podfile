@@ -34,7 +34,7 @@ target 'modulo06_React_Native' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
 
   target 'modulo06_React_NativeTests' do
     inherit! :search_paths

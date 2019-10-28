@@ -15,6 +15,7 @@ export const Form = styled.View`
 
 export const Input = styled.TextInput.attrs({
     placeholderTextColor: '#999',
+    color: '#000',
 })`
     flex: 1;
     height: 40px;
@@ -83,6 +84,6 @@ export const ProfileButton = styled(RectButton)`
 export const ProfileButtonText = styled.Text`
     font-size: 14px;
     font-weight: bold;
-    color: #fff;
+    color: #eee;
     text-transform: uppercase;
 `;

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Keyboard, ActivityIndicator} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import api from '../../services/api';
 
 import {
@@ -102,7 +102,7 @@ export default class Main extends Component {
                         {loading ? (
                             <ActivityIndicator color="FFF" />
                         ) : (
-                            <Icon name="add" size={20} color="#FFF" />
+                            <Icon name="add" size={20} color="#fff" />
                         )}
                     </SubmitButton>
                 </Form>
