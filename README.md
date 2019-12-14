@@ -7,9 +7,11 @@
 Aplicação mobile (Android e IOS) que realiza uma busca na API do github, salva no banco SQLite e lista a conta pesquisada.
 
 **Instalação**
+
 Na pasta do projeto rodar o comando no terminal `yarn`
 
 **Executar a aplicação com o comando:**
+
 `react-native run-ios` e/ou `react-native run-android`
 
 **Dependências do projeto**
